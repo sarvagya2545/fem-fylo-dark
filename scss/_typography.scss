@@ -1,0 +1,81 @@
+body {
+    background-color: $col-primary-1;
+    color: $col-text;
+}
+
+.nav {
+    font-family: $font-1;
+}
+
+.hero {
+    font-family: $font-2;
+
+    &__heading {
+        font-family: $font-1;
+        font-size: 3.5rem;
+        line-height: 1.4;
+        font-weight: 700;
+    }
+
+    &__description {
+        font-size: 2rem;
+    }
+}
+
+.feature-card {
+    &__heading {
+        font-family: $font-1;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+    
+    &__para {
+        font-size: 1.4rem;
+        font-family: $font-2;
+        opacity: 0.7;
+    }
+}
+
+.copy-content {
+    &__heading {
+        font-family: $font-1;
+        font-size: 3.5rem;
+    }
+
+    &__para {
+        font-family: $font-2;
+        font-size: 1.2rem;
+        margin: 10px 0;
+        opacity: 0.7;
+    }
+}
+
+.link-primary {
+    font-family: $font-2;
+}
+
+.testimonials-card {
+    font-family: $font-2;
+    font-size: 1.4rem;
+
+    &__profile {
+        font-size: 1.2rem;
+    }
+}
+
+.cta {
+    &__heading {
+        font-family: $font-1;
+        font-size: 3rem;
+    }
+
+    &__para {
+        font-family: $font-2;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+.footer {
+    font-family: $font-2;
+}

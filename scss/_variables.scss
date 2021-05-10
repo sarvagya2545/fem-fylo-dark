@@ -1,0 +1,22 @@
+// colors
+// primary
+$col-primary-1: hsl(217, 28%, 15%);
+$col-primary-2: hsl(218, 28%, 13%);
+$col-primary-3: hsl(216, 53%, 9%);
+$col-primary-4: hsl(219, 30%, 18%);
+
+// accent
+$col-accent-cyan: hsl(176, 68%, 64%);
+$col-accent-blue: hsl(198, 60%, 50%);
+$col-accent-red: hsl(0, 100%, 63%);
+
+// neutral
+$col-text: hsl(0, 0%, 100%);
+
+// fonts
+$font-1: 'Raleway', sans-serif;
+$font-2: 'Open Sans', sans-serif;
+
+// gradient
+$btn-gradient: linear-gradient(to right, $col-accent-cyan, $col-accent-blue);
+$btn-hover-gradient: linear-gradient(to right, $col-accent-cyan 100%, $col-accent-blue 100%);

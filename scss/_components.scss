@@ -1,0 +1,85 @@
+.btn-primary {
+    background: $btn-gradient;
+    border: none;
+    outline: none;
+    color: $col-text;
+    font-weight: 700;
+    padding: 1.5rem 3rem;
+    width: 25rem;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background: $btn-hover-gradient;
+        cursor: pointer;
+    }
+}
+
+.link-primary {
+    text-decoration: none;
+    border-bottom: 1px solid $col-accent-cyan;
+    color: $col-accent-cyan;
+    position: relative;
+    padding-right: 3rem;
+
+    &::after {
+        content: '\2192';
+        color: $col-primary-2;
+        background-color: $col-accent-cyan;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border-radius: 10px;
+        vertical-align: middle;
+        font-size: 1.5rem;
+    }
+
+    &:hover {
+        color: $col-text;
+        border-color: $col-text;
+
+        &::after {
+            background-color: $col-text;
+        }
+    }
+}
+
+.testimonials-card {
+    background-color: $col-primary-4;
+    width: fit-content;
+    padding: 3rem;
+    margin: 3rem;
+    box-shadow: 8px 8px 10px $col-primary-1;
+    z-index: 1;
+    
+    @include flex-center(column);
+
+    &__testimonial {
+        margin-bottom: 2rem;
+    }
+
+    &__profile {
+        width: 100%;
+        @include flex-center(row);
+        justify-content: start;
+
+        img {
+            width: 30px;
+            border-radius: 20px;
+            margin-right: 1.2rem;
+        }
+    }
+}
+
+.cta {
+    &__input {
+        padding: 1.5rem;
+        outline: none;
+        border: 1px solid $col-primary-1;
+        border-radius: 50px;
+    }
+}
